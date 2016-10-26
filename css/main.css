@@ -12,29 +12,64 @@ div {
   text-align: center;
 }
 
+a {
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn-ghost {
+  display: inline-block;
+  background-color: #fff;
+  text-decoration: none;
+  border: 3px solid #000;
+  color: #000;
+  font-size: 1.125rem;
+  padding: .4em;
+}
+
+a.btn-subtle {
+  background-color: #ccc;
+  color: #fff;
+  padding: .5em;
+}
+
+a.btn-warning {
+  background-color: #f33;
+  color: #fff;
+  padding: .5em;
+}
+
+a.btn-small {
+  background-color: #333;
+  color: #fff;
+  padding: .6em;
+}
+
+a.btn-big {
+  background-color: #333;
+  color: #fff;
+  padding: .4em;
+}
+
 .btn {
   display: inline-block;
   background-color: #333;
   text-decoration: none;
-  padding: .3em;
+  padding: .5em;
   border-radius: 8px;
   border-width: 3px;
   color: #fff;
   font-size: 1.125rem;
 }
 
+
+
 .btn:hover {
   background-color: #000;
 }
 
 .btn-subtle {
-  display: inline-block;
-  background-color: #ccc;
-  text-decoration: none;
-  padding: .3em;
-  border-radius: 8px;
-  border: 3px;
-  color: #fff;
   font-size: 1.125rem;
 }
 
@@ -43,13 +78,6 @@ div {
 }
 
 .btn-ghost {
-  display: inline-block;
-  background-color: #fff;
-  text-decoration: none;
-  padding: .3em;
-  border-radius: 8px;
-  border: 3px solid #000;
-  color: #000;
   font-size: 1.125rem;
 }
 
@@ -60,13 +88,7 @@ div {
 }
 
 .btn-warning {
-  display: inline-block;
-  background-color: #f33;
-  text-decoration: none;
-  padding: .3em;
-  border-radius: 8px;
   border-width: 3px;
-  color: #fff;
   font-size: 1.125rem;
 }
 
@@ -75,13 +97,7 @@ div {
 }
 
 .btn-small {
-  display: inline-block;
-  background-color: #333;
-  text-decoration: none;
-  padding: .3em;
-  border-radius: 8px;
   border-width: 3px;
-  color: #fff;
   font-size: .875rem;
 }
 
@@ -93,7 +109,7 @@ div {
   display: inline-block;
   background-color: #ccc;
   text-decoration: none;
-  padding: .3em;
+  padding: .6em;
   border-radius: 8px;
   border: 3px;
   color: #fff;
@@ -108,7 +124,7 @@ div {
   display: inline-block;
   background-color: #fff;
   text-decoration: none;
-  padding: .3em;
+  padding: .6em;
   border-radius: 8px;
   border: 3px solid #000;
   color: #000;
@@ -125,7 +141,7 @@ div {
   display: inline-block;
   background-color: #f33;
   text-decoration: none;
-  padding: .3em;
+  padding: .7em;
   border-radius: 8px;
   border-width: 3px;
   color: #fff;
@@ -137,13 +153,7 @@ div {
 }
 
 .btn-big {
-  display: inline-block;
-  background-color: #333;
-  text-decoration: none;
-  padding: .3em;
-  border-radius: 8px;
   border-width: 3px;
-  color: #fff;
   font-size: 1.5rem;
 }
 
@@ -155,7 +165,7 @@ div {
   display: inline-block;
   background-color: #ccc;
   text-decoration: none;
-  padding: .3em;
+  padding: .4em;
   border-radius: 8px;
   border: 3px;
   color: #fff;
@@ -170,7 +180,7 @@ div {
   display: inline-block;
   background-color: #fff;
   text-decoration: none;
-  padding: .3em;
+  padding: .4em;
   border-radius: 8px;
   border: 3px solid #000;
   color: #000;
@@ -187,7 +197,7 @@ div {
   display: inline-block;
   background-color: #f33;
   text-decoration: none;
-  padding: .3em;
+  padding: .4em;
   border-radius: 8px;
   border-width: 3px;
   color: #fff;
