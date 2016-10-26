@@ -11,3 +11,147 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+div .btn {
+  display: inline-block;
+  background-color: #333;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+div .btn:hover {
+  background-color: #000;
+}
+
+div .btn-subtle {
+  display: inline-block;
+  background-color: #ccc;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border: 3px;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+div .btn-ghost {
+  display: inline-block;
+  background-color: #fff;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border: 3px solid #000;
+  color: #000;
+  font-size: 1.125rem;
+}
+
+div .btn-warning {
+  display: inline-block;
+  background-color: #f33;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  font-size: 1.125rem;
+}
+
+div .btn-small {
+  display: inline-block;
+  background-color: #333;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  font-size: .875rem;
+}
+
+div .btn-small:hover {
+  background-color: #000;
+}
+
+div .btn-small-subtle {
+  display: inline-block;
+  background-color: #ccc;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border: 3px;
+  color: #fff;
+  font-size: .875rem;
+}
+
+div .btn-small-ghost {
+  display: inline-block;
+  background-color: #fff;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border: 3px solid #000;
+  color: #000;
+  font-size: .875rem;
+}
+
+div .btn-small-warning {
+  display: inline-block;
+  background-color: #f33;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  font-size: .875rem;
+}
+
+div .btn-big {
+  display: inline-block;
+  background-color: #333;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+div .btn-big:hover {
+  background-color: #000;
+}
+
+div .btn-big-subtle {
+  display: inline-block;
+  background-color: #ccc;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border: 3px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+div .btn-big-ghost {
+  display: inline-block;
+  background-color: #fff;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border: 3px solid #000;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+div .btn-big-warning {
+  display: inline-block;
+  background-color: #f33;
+  text-decoration: none;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  font-size: 1.5rem;
+}
